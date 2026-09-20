@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    width: 430px;
+    min-height: 280px;
+    background-color: #1d1d24;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.input-box {
+    width: 210px;
+    height: 35px;
+    margin: auto;
+    background-color: #363649;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.input-box label {
+    font-size: 7px;
+}
+
+.input-box input {
+    width: 25px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.input-box input::-webkit-inner-spin-button,
+.input-box input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.input-box span {
+    font-size: 12px;
+}
+
+.input-box button {
+    margin-left: auto;
+    width: 30px;
+    height: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #efff32;
+    font-size: 6px;
+}
+
+.current-timers {
+    width: 105px;
+    height: 17px;
+    margin: 12px auto;
+    background-color: #3b3b42;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7px;
+}
+
+#noTimer {
+    font-size: 7px;
+    margin-top: 15px;
+}
+
+.timer {
+    width: 210px;
+    height: 35px;
+    background-color: #363649;
+    margin: 10px auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.timer span:first-child {
+    font-size: 7px;
+}
+
+.timer .time {
+    margin-left: auto;
+    margin-right: 15px;
+    font-size: 13px;
+}
+
+.timer button {
+    width: 30px;
+    height: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #efff32;
+    font-size: 6px;
+}
+
+.finished {
+    background-color: #efff32;
+    color: black;
+    justify-content: space-between;
+}
+
+.finished .message {
+    font-size: 13px;
+    margin-left: 45px;
+}
+
+.finished button {
+    background-color: #363649;
+    color: white;
+}
